@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sa_tw">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 要加這個 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Order_info"></activity>
+        <activity android:name=".Shop.Stationery_3" />
+        <activity android:name=".Shop.Stationery_2" />
+        <activity android:name=".Shop.Stationery_1" />
+        <activity android:name=".Shop.Dessert_3" />
+        <activity android:name=".Shop.Dessert_1" />
+        <activity android:name=".Shop.Dessert_2" />
+        <activity android:name=".Shop.Bread_3" />
+        <activity android:name=".Shop.Bread_2" />
+        <activity android:name=".Shop.Bread_1" />
+        <activity android:name=".Shop.Stationery" />
+        <activity android:name=".Shop.Dessert" />
+        <activity android:name=".Shop.Bread" />
+        <activity android:name=".Shop.Shop" />
+        <activity android:name=".ShoppingCart" />
+        <activity android:name=".SignUp_GUI" />
+        <activity android:name=".Recordlist" />
+        <activity android:name=".OTPinput" />
+        <activity android:name=".Deposit" />
+        <activity android:name=".INFO" />
+        <activity android:name=".Introduction" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
